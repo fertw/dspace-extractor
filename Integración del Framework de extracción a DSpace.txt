@@ -1,4 +1,4 @@
-﻿Para poder integrar el framework de extracción a DSpace es necesario compilar el proyecto dspace-docenar-inspector y luego el proyecto dspace-extractor.
+﻿Para poder integrar el framework de extracción a DSpace es necesario compilar el proyecto dspace-docenar-inspector y luego el proyecto dspace-extractor. 
 
 
 Para esto mediante el uso de maven, se corren los siguientes comandos:
