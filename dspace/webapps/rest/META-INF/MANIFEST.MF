@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: Fernando
+Build-Jdk: 1.7.0_65
+Specification-Title: DSpace REST (JAX RS 1 - Jersey) :: Local Customiz
+ ations
+Specification-Version: 5.0-SNAPSHOT
+Specification-Vendor: DuraSpace
+Implementation-Title: DSpace REST (JAX RS 1 - Jersey) :: Local Customi
+ zations
+Implementation-Version: 5.0-SNAPSHOT
+Implementation-Vendor-Id: org.dspace.modules
+Implementation-Vendor: DuraSpace
+
