@@ -1,0 +1,30 @@
+﻿Para poder integrar el framework de extracción a DSpace es necesario compilar el proyecto dspace-docenar-inspector y luego el proyecto dspace-extractor.
+
+
+Para esto mediante el uso de maven, se corren los siguientes comandos:
+
+
+
+
+Compilación de dspace-docear-pdf
+Dentro de la carpeta [dspace-home]\extractor-dspace-tesis\DSpace\dspace-docear-pdf
+
+
+clean install eclipse:clean eclipse:eclipse  -Dwtpversion=2.0 -Dmaven.test.skip=true
+
+
+Compilación de dspace-extractor
+Dentro de la carpeta [dspace-home]\extractor-dspace-tesis\DSpace\dspace-extractor
+
+
+clean install eclipse:clean eclipse:eclipse  -Dwtpversion=2.0 -Dmaven.test.skip=true
+
+
+Compilación de DSpace
+Dentro de la carpeta [dspace-home]\extractor-dspace-tesis\DSpace
+
+
+clean install eclipse:clean eclipse:eclipse  -Dwtpversion=2.0 -Dmaven.test.skip=true
+
+
+Una vez realizados los tres pasos de compilación, ya estará integrado el framework de extracción a DSpace.
