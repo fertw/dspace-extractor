@@ -1,0 +1,26 @@
+4º Simposio Argentino de Sociedad de la Información 2006 - SSI 2006
+Sistema de información orientado a la trazabilidad 
+ 
+Carolina Amable, Sonia I. Mariño y Maria E. Valesani 
+ 
+Departamento de Informática. Facultad de Ciencias Exactas y Naturales y Agrimensura. Universidad 
+Nacional del Nordeste. 9 de Julio 1449. 3400. Corrientes 
+msonia@exa.unne.edu.ar, evalesani@exa.unne.edu.ar 
+ 
+RESUMEN 
+ 
+En la actualidad para realizar exportaciones de carne bovina es necesario conocer la 
+historia clínica del animal desde su nacimiento hasta la faena, esta es la primera etapa 
+de la Trazabilidad. Estos datos son manejados con mayor facilidad mediante la 
+aplicación de sistemas informáticos orientados a la toma de decisiones.  
+En este trabajo se describe un sistema que registra la historia clínica de cada animal, 
+como por ejemplo: enfermedades, vacunación, tratamientos, etc. de manera tal que 
+puedan ser procesadas junto con los requisitos que deben cumplir para ser enviados 
+a la faena. Con estos parámetros el sistema puede excluir a los animales que no son 
+aptos y determinar cuáles son los animales en condiciones de ser enviados al 
+matadero como lo haría un profesional experto.  
+ 
+Palabras Clave – sistema de información, bases de datos, simulaciones, aplicaciones 
+a trazabilidad 
+ 
+160

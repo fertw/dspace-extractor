@@ -1,0 +1,161 @@
+estar ocupados en el momento del arribo provoca
+Ejemplos típicos son las colas que se form
+supermercados, la atención de llamadas de un 
+de producción, etc. Dentro de este contexto, se denom
+servicio y puede tener que esperar para ser atendido.   
+Estructuralmente, una operación de colas se divide 
+o cola, la prestación de servicio y la salida. Los 
+fuente o población, que puede ser finita o infin
+determinada distribución de probabilidad.  
+El conjunto formado por la cola y la instalación de
+definirse si el mismo es de capacidad limitada o infinita. En 
+capacidad infinita. Se considera como tal cuando 
+funcionamiento. 
+En este trabajo se estudia bajo qué condiciones un m
+régimen estacionario puede ser aproximado por
+Los círculos corresponden a los niveles de la probabilidad 
+sistema en el tiempo t. Las flechas indican los 
+las probabilidades. En base al diagrama de causalidad, la dinám
+&
+p = µ p − λ p ,
+0 1 0
+&
+p = λ p + µ p − ( λ +
+k k −1 k +1
+donde el sobre punto indica la derivada respecto al tiem
+Si bien es un sistema de infinitas ecuaciones diferenc
+funciones de Bessel no es de difícil determinación y
+Para el caso en que el sistema tiene capacidad lim
+comportamiento es muy similar al modelo anterior (M/M/1):(DG/
+cuando ocurren llegadas después de que hay
+cliente que se presenta es rechazado puesto que el sistem
+no sea atendido alguno de los clientes que están en él. Dado que el sistem
+N+1, el diagrama de la Figura 1 se convierte en: 
+ 
+ 
+precisión del cálculo numérico.  
+ 
+III PROPIEDADES DE LOS MODELOS 
+ 
+Para caracterizar  la dinámica de los m
+indicadores: el número medio de clientes en el sistem
+El número medio de clientes en el sistem
+m m
+servicio , f (t) = 1 − p (t) . 
+s 0
+El sistema con capacidad infinita (M/M/1):(DG/
+soluciones explícitas tanto del estado transitorio com
+estudiar el régimen estacionario se debe considerar el lím
+esas condiciones, las probabilidades resultan: 
+ *
+p = 1 − x ,
+0
+* * k
+ 
+p = p (1 - x) ,
+k 0
+*
+lim p = 1 − x ,  x < 1 ,
+ 0
+N → ∞
+que correspondiente al modelo (M/M/1):(DG/
+(M/M/1):(DG/ ∞/ ∞) para obtener soluciones estacionarias Dado que las probabilidades del m
+capacidad limitada convergen uniformemente 
+que: 
+lim (M/M/1) : (DG/N/ ∞) = (M/M/1)
+ 
+N → ∞
+ 
+Como es sabido la estabilidad del punto fijo 
+matriz Jacobiana de (2). Debido a la dificultad 
+pudieron determinar explícitamente los autovalo
+siempre tienen multiplicidad uno, siendo uno de ellos 
+no fue posible determinarlos en forma explícita, sin em
+ser positiva ya que de serlo las probabilidades 
+satisfaría la normalización dada por la condición (5
+estacionaria es asintóticamente estable.   
+0.6
+0.4
+0.2
+10 20
+Figura 3: Comportamiento de L
+*
+*
+∂L
+s
+Es fácil verificar que , luego L
+≥ 0
+s
+∂x
+que al aumentar x, aumenta la frecuencia de arri
+población promedio. Además, cuando la tasa de arri
+capacidad del sistema se satura en su valor m
+Figura 4 se mostramos el número medio de clientes 
+para N =15, poniéndose de manifiesto el comportam
+resultados similares.   
+ 
+*
+t
+5-a 
+30
+25 0.6
+20
+0.5
+15
+0.4
+10
+0.3
+0.2
+5
+0.1
+10 20 30 40 50
+*
+Figura 5: Representación de t en función de N para x: 5-a) de 0.1 a 0.6 y
+donde x < 1, ya que el modelo (M/M/1):(DG/ ∞
+Figura 6 se representa la variación relativa δ
+producen básicamente en las proximidades de 
+regiones el sistema con capacidad limitada es apr
+error tolerable.  
+1
+0.75
+*
+d L
+δ L s
+s 0.5
+0.25
+0
+0 0
+5 5
+10 10
+N N
+Figura 6: Comportam
+N
+ (x -1)  x
+*
+δ f =
+r s
+N +1
+x − 1
+En la Figura 8 se muestran las curvas de nivel 
+los cambios más importantes se producen básicam
+1
+0.9 
+(90%) 
+0.8
+0.6
+0.4
+0.2
+0
+0 2
+x
+4 H. A. Taha, Investigación de Operaciones
+5 W. L. Winston, Investigación de Operaciones – Aplicaciones y Algoritmos. 
+Thomson International, 2004. 
+6 G. F. Simmons, Ecuaciones Diferenciales con Aplicaciones y Notas Históricas
+España: Editorial Mc Graw Hill, 1993. 
+7 A. Law and W. Kelton, Simulation modelling and analysis, 
+8 S. Strogatz, Nonlinear dynamics and chaos, 
+9 S. Wolfram, Mathematica, New York: Addison Wesley
+ 
+ 
+ 
